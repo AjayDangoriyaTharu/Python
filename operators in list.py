@@ -1,0 +1,10 @@
+a=["Ajay",50,22.5,'a',999]
+print()
+print(a)
+print("Uses of + operator :",(a+a))
+print()
+print(a)
+print("Uses of * operator :",(a*3))
+print()
+print(a)
+print("Uses of in operator :",("Ajay" in a))
