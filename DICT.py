@@ -1,0 +1,28 @@
+dict={
+    "fname":"Ajay",
+    "lname":"Dangoriya",
+    "Roll_no":11222780,
+    "country":"Nepal"
+}
+print(dict)
+print()
+a=dict.get("Roll_no")
+print(a)
+print()
+b=dict.keys()
+print(b)
+print()
+c=dict.values()
+print(c)
+print()
+d=dict.items()
+print(d)
+print()
+dict["year"]="2nd Year"
+print(dict)
+print()
+e=dict.pop("lname")
+print(e)
+print()
+f=dict.clear()
+print(f)
